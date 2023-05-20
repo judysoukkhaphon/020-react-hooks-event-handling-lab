@@ -1,0 +1,16 @@
+#Add Event Listeners to DOM elements
+
+* Must export components from 'EyesOnMe.js' and 'Keypad.js
+
+* Will use <input type="password" /> to capture input.
+
+
+1. Create a "Keypad" commponent, render an 'input' of the right type.
+    'input' will have a 'change' event listener that prints "Entering password..." when triggered.
+
+2. Create an "EyesOnMe" component, render a "button" with text "Eyes on me"
+    add "focus" and "blur" event handlers to the button.
+    on "focus", print "Good!"
+    on "blur", print "Hey! Eyes on me!"
+
+    
